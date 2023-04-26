@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-//This script gets webpage contents and writes to a file
+// This script gets webpage contents and writes to a file
 
 const request = require('request');
 const fs = require('fs');
