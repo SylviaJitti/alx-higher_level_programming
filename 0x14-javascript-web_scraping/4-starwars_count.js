@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-/*This script is printing the status code of a GET request*/
+// This script is printing the status code of a GET request
 
 const request = require('request');
 
-//  first argument is the API URL
+// first argument is the API URL
 const URL = process.argv[2];
 
 request(URL, (error, response, body) => {
